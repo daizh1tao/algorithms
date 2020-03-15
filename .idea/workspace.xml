@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d70d6e-b737-4a84-af35-a0b5ea245bcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/BubbleSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/HeapSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/HeapSortAdvance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/QuickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/InsertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/InsertionSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/MergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/MergeSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/MergeSortAdvance.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/MergeSortAdvance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/BubbleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/BubbleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/InsertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/InsertionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/MergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/MergeSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/MergeSortAdvance.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmsBasic/SortAlgorithms/MergeSortAdvance.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1YqcdvN6lWXyFrhYEodUpUlGnmF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,14 +46,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data_structure" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,6 +77,12 @@
       <workItem from="1583752070382" duration="2000" />
       <workItem from="1583805081226" duration="830000" />
       <workItem from="1583806506689" duration="2044000" />
+      <workItem from="1583810980613" duration="27000" />
+      <workItem from="1583891726158" duration="9524000" />
+      <workItem from="1584061089572" duration="5799000" />
+      <workItem from="1584067345636" duration="3409000" />
+      <workItem from="1584073385325" duration="63000" />
+      <workItem from="1584238310966" duration="749000" />
     </task>
     <servers />
   </component>
@@ -87,18 +103,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="399" y="158" key="FileChooserDialogImpl" timestamp="1583805678736">
-      <screen x="0" y="0" width="1463" height="874" />
+    <state x="466" y="186" key="FileChooserDialogImpl" timestamp="1584073445049">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="399" y="158" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1583805678736" />
-    <state x="162" y="46" key="SettingsEditor" timestamp="1583805689022">
-      <screen x="0" y="0" width="1463" height="874" />
+    <state x="399" y="158" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1583811004860" />
+    <state x="466" y="186" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1584073445049" />
+    <state x="189" y="54" key="SettingsEditor" timestamp="1584067682753">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="142" y="42" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583676397307" />
     <state x="162" y="46" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1583805689022" />
-    <state x="394" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1583805468782">
-      <screen x="0" y="0" width="1463" height="874" />
+    <state x="189" y="54" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1584067682753" />
+    <state x="460" y="215" width="785" height="797" key="search.everywhere.popup" timestamp="1584063468772">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="394" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1463.874@0.0.1463.874" timestamp="1583805468782" />
+    <state x="460" y="215" width="785" height="797" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1584063468772" />
   </component>
 </project>

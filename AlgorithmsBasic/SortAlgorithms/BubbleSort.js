@@ -2,9 +2,8 @@
  *
  * @param {number[]} array
  * @param {boolean} asc
- * @constructor
  */
-let BubbleSort = function (array, asc = true) {
+function BubbleSort (array, asc = true) {
     for (let i = 0; i < array.length; ++i) {
         for (let j = i + 1; j < array.length; ++j ) {
             let sortWay = asc ? array[j] <= array[i] : array[j] > array[i]

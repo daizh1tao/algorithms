@@ -1,4 +1,4 @@
-let merge = function (array, p, q, r) {
+function merge (array, p, q, r) {
     let l_array = array.slice(p, q + 1)
     let r_array = array.slice(q + 1, r + 1)
 
@@ -33,9 +33,8 @@ let merge = function (array, p, q, r) {
  * @param {number[]} array
  * @param {number} p
  * @param {number} r
- * @constructor
  */
-let MergeSort = function (array, p, r) {
+function MergeSort (array, p, r) {
     if (p < r) {
         let q = ((p + r) / 2) ^ 0
         MergeSort(array, p, q)

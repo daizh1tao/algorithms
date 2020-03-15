@@ -4,7 +4,7 @@
  * @param {boolean} asc
  * @constructor
  */
-let InsertionSort = function (array, asc = true) {
+function InsertionSort (array, asc = true) {
     for (let j = 1; j < array.length; ++j) {
         let key = array[j]
 
