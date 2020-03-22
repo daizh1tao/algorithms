@@ -4,7 +4,7 @@
  * @param {boolean} asc
  * @constructor
  */
-function InsertionSort (array, asc = true) {
+export default function InsertionSort (array, asc = true) {
     for (let j = 1; j < array.length; ++j) {
         let key = array[j]
 
@@ -21,7 +21,3 @@ function InsertionSort (array, asc = true) {
     }
     return array
 }
-
-let arr = [5, 2, 4, 6, 1, 3]
-
-console.log(InsertionSort(arr, false))
